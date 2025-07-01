@@ -18,7 +18,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE. }}} */
 
-package control // import "pault.ag/go/debian/control"
+package control // import "github.com/akozlenkov/go-debian/control"
 
 import (
 	"bufio"
@@ -28,9 +28,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"pault.ag/go/debian/dependency"
-	"pault.ag/go/debian/internal"
-	"pault.ag/go/debian/version"
+	"github.com/akozlenkov/go-debian/dependency"
+	"github.com/akozlenkov/go-debian/internal"
+	"github.com/akozlenkov/go-debian/version"
 
 	"pault.ag/go/topsort"
 )
